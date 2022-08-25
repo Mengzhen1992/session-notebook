@@ -34,8 +34,16 @@
 1. git log
 2. git pull
 3. git clone
+4. git restore .
 
 ## Homebrew
 
 1. password: 89891044
 2. p10k configure
+
+## ignore DS_Store
+
+1. touch .gitignore (main + first commit)
+2. code .
+3. .DS_Store (in VSCode)
+4. git add . --> git commit -m"" --> git push
