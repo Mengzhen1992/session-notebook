@@ -22,12 +22,14 @@
 20. curl ifconfig.me --> show IP Adresse
 21. curl ipinfo.io --> show ip
 22. clear
+23. git log exit --> q
 
 ## VSCode
 
 1. Terminal --> command + J
 2. [] --> option + 5
 3. save --> command + s
+4. commentieren --> command + shift + 7
 
 ## Git
 
@@ -35,6 +37,15 @@
 2. git pull
 3. git clone
 4. git restore .
+5. git checkout + branchname : 把别人仓库的新分支弄到本地
+6. 把 clone 别人的 github 项目上传到自己 git 库
+   - 先从 git 库上把自己需要的项目克隆到自己本地
+   - 然后把 git 项目中的.git 文件夹 给删除 (command + shift + .)
+   - git init
+   - git add .
+   - git commit -m ""
+   - git remote add origin ....
+   - git push .....
 
 ## Homebrew
 
